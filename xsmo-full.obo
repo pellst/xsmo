@@ -1,0 +1,11 @@
+format-version: 1.2
+data-version: xsmo/releases/2022-02-25/xsmo-full.owl
+ontology: xsmo/xsmo-full
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Xenbase Small Molecule Ontology" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+
+[Term]
+id: XSMO:00000000
+name: root node
+
