@@ -1,15 +1,9 @@
 [![Build Status](https://travis-ci.org/pellst/xsmo.svg?branch=master)](https://travis-ci.org/pellst/xsmo)
 [![DOI](https://zenodo.org/badge/13996/pellst/xsmo.svg)](https://zenodo.org/badge/latestdoi/13996/pellst/xsmo)
 
-# Xenbase Small Molecule Ontology (XSMO)
+# Xenbase Small Molecule Ontology
 
-## Xenbase Small Molecule Ontology (XSMO) files 
-
-### xsmo.obo
-This is an obo file and contains pubchem IDs, names and synonyms for small molecules used in the curation of the Xenbase model organism database (http://www.xenbase.org/).
-
-### xsmo.owl
-This is an OWL formatted version of the ontology in 'xsmo.obo'.
+This ontology... YOUR DESCRIPTION HERE
 
 More information can be found at http://obofoundry.org/ontology/xsmo
 
