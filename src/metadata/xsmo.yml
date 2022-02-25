@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/xsmo
+
+idspace: XSMO
+base_url: /obo/xsmo
+
+products:
+- xsmo.owl: https://raw.githubusercontent.com/pellst/xsmo/master/xsmo.owl
+- xsmo.obo: https://raw.githubusercontent.com/pellst/xsmo/master/xsmo.obo
+
+term_browser: ontobee
+example_terms:
+- xsmo_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/pellst/xsmo/v
+
+- prefix: /tracker/
+  replacement: https://github.com/pellst/xsmo/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/XSMO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/pellst/xsmo/master/
